@@ -1,0 +1,39 @@
+{
+  "expenseList": [
+    {
+      "title": "Health Insurance",
+      "amount": "1000",
+      "catergory": "{\"id\":2,\"key\":\"Healthcare\",\"value\":\"healthcare\",\"icon\":{\"default\":\"/static/media/healthcare.d26b4326.png\"},\"color\":\"#FF768A\"}",
+      "createdAt": 1633691848616,
+      "id": 1633691848616
+    },
+    {
+      "title": "Mac Mini m1",
+      "amount": "68000",
+      "catergory": "{\"id\":3,\"key\":\"Shopping\",\"value\":\"shopping\",\"icon\":{\"default\":\"/static/media/shopping.b248386d.png\"},\"color\":\"#EC60AB\"}",
+      "createdAt": 1633696901112,
+      "id": 1633696901112
+    },
+    {
+      "title": "Burger",
+      "amount": "49",
+      "catergory": "{\"id\":4,\"key\":\"Food\",\"value\":\"food\",\"icon\":{\"default\":\"/static/media/food.7bf88c6f.png\"},\"color\":\"#FF9E6D\"}",
+      "createdAt": 1633697104302,
+      "id": 1633697104302
+    },
+    {
+      "title": "MacBook Air m1",
+      "amount": "100000",
+      "catergory": "{\"id\":3,\"key\":\"Shopping\",\"value\":\"shopping\",\"icon\":{\"default\":\"/static/media/shopping.b248386d.png\"},\"color\":\"#EC60AB\"}",
+      "createdAt": 1633697143614,
+      "id": 1633697143614
+    },
+    {
+      "title": "Books",
+      "amount": "859",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1633697192594,
+      "id": 1633697192594
+    }
+  ]
+}
