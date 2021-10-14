@@ -13,3 +13,9 @@
     min-width: 300px;
     height: 50%;
 }
+.empty-search-list{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 4px;
+}

@@ -1,39 +1,81 @@
 {
   "expenseList": [
     {
+      "title": "Burger",
+      "amount": "69",
+      "catergory": "{\"id\":4,\"key\":\"Food\",\"value\":\"food\",\"icon\":{\"default\":\"/static/media/food.7bf88c6f.png\"},\"color\":\"#FF9E6D\"}",
+      "createdAt": 1634110071164,
+      "id": 1634110071164
+    },
+    {
+      "title": "Mac mini m1",
+      "amount": "68000",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634110084436,
+      "id": 1634110084436
+    },
+    {
       "title": "Health Insurance",
       "amount": "1000",
       "catergory": "{\"id\":2,\"key\":\"Healthcare\",\"value\":\"healthcare\",\"icon\":{\"default\":\"/static/media/healthcare.d26b4326.png\"},\"color\":\"#FF768A\"}",
-      "createdAt": 1633691848616,
-      "id": 1633691848616
-    },
-    {
-      "title": "Mac Mini m1",
-      "amount": "68000",
-      "catergory": "{\"id\":3,\"key\":\"Shopping\",\"value\":\"shopping\",\"icon\":{\"default\":\"/static/media/shopping.b248386d.png\"},\"color\":\"#EC60AB\"}",
-      "createdAt": 1633696901112,
-      "id": 1633696901112
-    },
-    {
-      "title": "Burger",
-      "amount": "49",
-      "catergory": "{\"id\":4,\"key\":\"Food\",\"value\":\"food\",\"icon\":{\"default\":\"/static/media/food.7bf88c6f.png\"},\"color\":\"#FF9E6D\"}",
-      "createdAt": 1633697104302,
-      "id": 1633697104302
-    },
-    {
-      "title": "MacBook Air m1",
-      "amount": "100000",
-      "catergory": "{\"id\":3,\"key\":\"Shopping\",\"value\":\"shopping\",\"icon\":{\"default\":\"/static/media/shopping.b248386d.png\"},\"color\":\"#EC60AB\"}",
-      "createdAt": 1633697143614,
-      "id": 1633697143614
+      "createdAt": 1634110250314,
+      "id": 1634110250314
     },
     {
       "title": "Books",
-      "amount": "859",
+      "amount": "869",
       "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
-      "createdAt": 1633697192594,
-      "id": 1633697192594
+      "createdAt": 1634115291602,
+      "id": 1634115291602
+    },
+    {
+      "title": "T-shirts",
+      "amount": "499",
+      "catergory": "{\"id\":3,\"key\":\"Shopping\",\"value\":\"shopping\",\"icon\":{\"default\":\"/static/media/shopping.b248386d.png\"},\"color\":\"#EC60AB\"}",
+      "createdAt": 1634115869442,
+      "id": 1634115869442
+    },
+    {
+      "title": "dfaf",
+      "amount": "45",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634117237699,
+      "id": 1634117237699
+    },
+    {
+      "title": "dfaf",
+      "amount": "45",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634117237691,
+      "id": 1634117237691
+    },
+    {
+      "title": "dfaf",
+      "amount": "45",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634117237692,
+      "id": 1634117237692
+    },
+    {
+      "title": "dfaf",
+      "amount": "45",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634117237693,
+      "id": 1634117237693
+    },
+    {
+      "title": "dfaf",
+      "amount": "45",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634117237694,
+      "id": 1634117237694
+    },
+    {
+      "title": "fasd",
+      "amount": "45",
+      "catergory": "{\"id\":1,\"key\":\"Education\",\"value\":\"education\",\"icon\":{\"default\":\"/static/media/education.f21be753.png\"},\"color\":\"#A95EC2\"}",
+      "createdAt": 1634118561066,
+      "id": 1634118561066
     }
   ]
 }

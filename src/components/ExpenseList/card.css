@@ -51,3 +51,15 @@
     align-items: center;
     margin: 3px 0px;
 }
+
+@media screen and (max-width: 1024px) {
+    .card-div{
+        width: 80%;
+    }
+   
+}
+@media screen and (max-width: 512px) {
+    .card-div{
+        width: 90%;
+    }
+}

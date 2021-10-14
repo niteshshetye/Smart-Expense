@@ -32,8 +32,6 @@ const validationSchema = Yup.object({
     catergory: Yup.string().required('Please Select')
 })
 
-
-
 export const categories = [
     {
       id: 1,
@@ -70,16 +68,14 @@ export const categories = [
       icon: require("../../assets/images/entertainment.png"),
       color: "#FFCB5E",
     },
-  ];
+];
 
 const FormExpense = () => {
     // const {edit} = useSelector(state => state.expens)
     // console.log("State Edit", edit)
     const dispatch = useDispatch()
     const onSubmit = (values, {resetForm}) => {
-        const createdAt= Date.now()
-        const newValues = {...values, createdAt, id: createdAt  }
-        dispatch(addExpense(newValues))
+        dispatch(addExpense(values))
         toast.success('Expenses Added...!', {
             position: 'top-right',
             autoClose: 2500,

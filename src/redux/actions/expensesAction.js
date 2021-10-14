@@ -3,10 +3,11 @@ import * as actionTypes from '../actionTypes'
 
 // *************************************************
 export const addExpense = (data) => {
-    console.log("data",data)
+    const createdAt= Date.now()
+    const newData = {...data, createdAt, id: createdAt  }
     return {
         type: actionTypes.ADD_EXPENSE,
-        payload: data
+        payload: newData
     }
 }
 export const expenseAdded = (expense) => {
@@ -54,3 +55,9 @@ export const searchedExpense = (data) => {
     }
 }
 // *************************************************
+export const expenseUpdate = data => {
+    return {
+        type: actionTypes.UPDATE_EXPENSE,
+        payload: data
+    }
+}

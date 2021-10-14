@@ -4,7 +4,6 @@ import './home.css'
 
 import Topfold from '../../components/Topfold'
 import ExpenseList from '../../components/ExpenseList'
-
 const Home = () => {
 
     return (

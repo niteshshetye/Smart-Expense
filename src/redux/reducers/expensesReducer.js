@@ -19,9 +19,10 @@ export const expensesReducer = (state = initialState , action) => {
                 expensList: action.payload
             }
         case EXPENSE_DELETED:
+            const newExpenseList = state.expensList.filter(expense => expense.id !== action.payload)
             return {
                 ...state,
-                expensList: action.payload
+                expensList: newExpenseList
             }
         case SEARCH_EXPENSE:
             return {
@@ -40,6 +41,7 @@ export const expensesReducer = (state = initialState , action) => {
                     searchList: action.payload
                 }
             }
+            
         default:
             return state
     }
